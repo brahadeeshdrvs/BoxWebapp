@@ -1,0 +1,158 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ccc;
+}
+#topbar {
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-top: 25px;
+}
+#topbar i{
+    margin-right:40px;
+    display:none;
+}
+#header-text p{
+    display: inline-block;
+    margin: 0 25px ; 
+    font-weight:500;
+    font-size: 13px;
+}
+.inactive{
+    color: rgb(190, 190, 190);
+}
+#plans{
+    color:black;
+}
+
+main{
+    background-color: white;
+    margin:100px 50px;
+    border-radius: 20px;
+}
+#logo {
+    width:200px; 
+    transform: translateX(-20px);
+}
+#signin {
+    background-color: black;
+    color:white;
+    padding: 15px 40px;
+    margin-right: 45px;
+    border-radius: 13px;
+    border: none;
+}
+#left-section {
+    display: inline-block;
+    width:30%;
+    margin:80px 10px 40px 70px ;
+    vertical-align: top;
+}
+
+#feature {
+    font-size:10px;
+    border: 1px solid #ccc;
+    padding:8px 23px;
+    border-radius:25px;
+    color:rgb(105, 121, 255);
+    background-color:rgb(255, 219, 247);
+    border:none;
+    font-weight: 600;
+}
+#left-section  h1{
+    font-size: 54px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height:1;
+    font-weight: 600;
+}
+#left-section p{
+    color:#ccc;
+}
+#getstart {
+    background-color: rgb(105, 121, 255);
+    color:white;
+    padding: 15px 40px;
+    margin-right: 45px;
+    border-radius: 13px;
+    border: none;
+
+}
+#right-section {
+    display: inline-block;
+    width: 60%;
+}
+#right-section img{
+    width:100%;
+    margin: 0 auto;
+}
+#footer-text{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width:30%;
+   margin: 0 0 20px 70px ;
+   justify-content: space-between;
+   align-items: center;
+   transform: translateY(-100%);
+
+
+    
+}
+.icon-wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height:50px;
+    border-radius:50%;
+    box-shadow: 0 0 5px #ccc;
+    justify-content: center;
+
+}
+.space-item{
+    display:flex;
+    justify-content: space-between;
+    width:160px;
+}
+.icon-space{
+    display:flex;
+    justify-content: space-between;
+    width:120px;
+}
+#leftarrow{
+    background-color:rgb(105, 121, 255);
+    color:white;
+}
+#num{
+    color:rgb(105, 121, 255);
+}
+
+@media (max-width: 600px){
+#header-text {
+    display:none;
+}
+#topbar i{
+    display:block;
+
+}
+#signin{
+    display:none;
+}
+#footer-text{
+    transform:translate(0);
+    
+}
+#left-section{
+    width:100%;
+}
+#right-section{
+    width:100%;
+}
+#landing-section{
+    width:100%;
+}
+}
+
+
